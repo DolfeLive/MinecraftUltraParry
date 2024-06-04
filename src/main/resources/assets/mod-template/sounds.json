@@ -1,0 +1,8 @@
+{
+	"parry": {
+		"subtitle": "sounds.parry",
+		"sounds": [
+			"mod-template:parry"
+		]
+	}
+}

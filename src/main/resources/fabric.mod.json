@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "ultra-parry",
+	"version": "${version}",
+	"name": "Ultra Parry",
+	"description": "A mod taht plays the ulttrakill parry sound effect and screen flash when you reflect a ghast fireball",
+	"authors": [
+		"dolfelive!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mod-template/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dolfe.minecarft.ModTemplate"
+		],
+		"client": [
+			"dolfe.minecarft.ModTemplateClient"
+		]
+	},
+	"mixins": [
+		"mod-template.mixins.json",
+		{
+			"config": "mod-template.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

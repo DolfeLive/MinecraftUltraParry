@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dolfe.minecarft.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"MenuButton"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
